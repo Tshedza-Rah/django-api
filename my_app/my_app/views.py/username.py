@@ -5,7 +5,7 @@ from django.http import HttpRequest
 
 
 @api_view(['GET'])
-def hello_world(requests):
-    return Response({"message": "Hello, world!"})
+def user_name(requests):
+    return Response({"message": "Asak Manoo"})
     
 
